@@ -4,9 +4,11 @@ This is a console game
 We are given size for a 2D grid and coordinates for a target cell. 
 
 Our mission is to check how many times through the generations, the cell becomes Green including Generation Zero.
+
 "1" states for Green cell and "0" states for Red cell.
 
 Rules of the game:
+
 One cell can has up to 8 neighbours.
 
 If a Green cell has 2, 3 or 6 green neighbours(including corners and sides) it REMAINS green.
@@ -24,11 +26,17 @@ Last input presents the coordinates for our target cell(column, row), and number
 Example for input:
 
 1st:          2nd:
+
 4, 4         2, 2
+
 1001         10 
+
 1111         00
+
 0100         1, 0, 2
+
 1010
+
 2, 2, 15
 
 At last, we print the N times when our target cell became green.
