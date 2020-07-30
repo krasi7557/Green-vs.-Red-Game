@@ -25,15 +25,15 @@ Last input presents the coordinates for our target cell(column, row), and number
 
 Example for input:
 
-1st:          2nd:
+1st:
 
-4, 4         2, 2
+4, 4
 
-1001         10 
+1001
 
-1111         00
+1111
 
-0100         1, 0, 2
+0100
 
 1010
 
